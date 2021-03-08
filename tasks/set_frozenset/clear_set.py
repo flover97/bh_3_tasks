@@ -8,7 +8,7 @@ from copy import deepcopy
 
 def clear_set(collection: set) -> set:
     collection_copy = deepcopy(collection)
-    # TODO вставить код сюда
+    collection_copy.clear()
     return collection_copy
 
 

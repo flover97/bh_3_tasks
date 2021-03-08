@@ -8,7 +8,7 @@ from copy import deepcopy
 
 def del_last(collection: list) -> list:
     collection_copy = deepcopy(collection)
-    # TODO вставить код сюда
+    collection_copy.pop()
     return collection_copy
 
 
